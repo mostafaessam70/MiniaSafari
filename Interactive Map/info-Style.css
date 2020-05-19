@@ -1,0 +1,261 @@
+body {
+        background-image: url(stars.gif);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        background-color: rgb(rgb(51, 67, 161), rgb(79, 87, 79), rgb(73, 73, 170));
+}
+
+/* Cities Info Container (rec) */
+
+#rec {
+        background-color: black;
+        border: blanchedalmond 3px solid;
+        background-repeat: no-repeat;
+        text-align: center;
+        width: 25%; 
+        height: 110vh;
+        float: left;
+        margin-right: 25px;
+        margin-top: 20px;
+        margin-left: 25px;
+        
+}
+
+/* Cities Info Paragraph */
+
+#rec p {
+    color: white;
+    border: rgb(82, 223, 228) 3px solid;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cities Info Header */
+
+#rec h3 {
+    border: brown 3px solid;
+    font-weight: 500;
+    color: rgb(211, 197, 197);
+    background-image: url(header.gif);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Map Div */
+
+.mapdiv {
+        
+        margin-top: 15px;
+        margin-left: 80px;
+        width: 60%;
+        height: 60vh; 
+        float: left;
+}
+
+.mapdiv path {
+
+    fill: rgb(0, 0, 0);
+    stroke: rgb(253, 253, 253);
+}
+
+
+#menia:hover {
+
+    fill: chocolate;
+    cursor: pointer;
+}
+
+#Ismailia:hover {
+
+    fill: salmon;
+    cursor: pointer;
+}
+
+#Gharbia:hover {
+
+    fill: springgreen;
+    cursor: pointer;
+}
+
+#Minufya:hover {
+
+    fill: rgb(83, 32, 204);
+    cursor: pointer;
+}
+
+#Fay:hover {
+
+    fill: rgb(83, 32, 204);
+    cursor: pointer;
+}
+
+#SH:hover {
+
+    fill: rgb(153, 32, 32);
+    cursor: pointer;
+}
+
+#Q:hover {
+
+    fill: rgb(60, 185, 22);
+    cursor: pointer;
+}
+
+#Suez:hover {
+
+    fill: rgb(88, 82, 100);
+    cursor: pointer;
+}
+
+#Lux:hover {
+
+    fill: chocolate;
+    cursor: pointer;
+}
+
+#Cairo:hover {
+
+    fill: salmon;
+    cursor: pointer;
+}
+
+#Qe:hover {
+
+    fill: springgreen;
+    cursor: pointer;
+}
+
+#Asy:hover {
+
+    fill: rgb(83, 32, 204);
+    cursor: pointer;
+}
+
+#Alex:hover {
+
+    fill: rgb(153, 32, 32);
+    cursor: pointer;
+}
+
+#Shamal:hover {
+
+    fill: rgb(60, 185, 22);
+    cursor: pointer;
+}
+
+#Janub:hover {
+
+    fill: rgb(88, 82, 100);
+    cursor: pointer;
+}
+
+#Be:hover {
+
+    fill: chocolate;
+    cursor: pointer;
+}
+
+#Dum:hover {
+
+    fill: salmon;
+    cursor: pointer;
+}
+
+#Giza:hover {
+
+    fill: springgreen;
+    cursor: pointer;
+}
+
+#Beni:hover {
+
+    fill: rgb(83, 32, 204);
+    cursor: pointer;
+}
+
+#Kafr:hover {
+
+    fill: rgb(168, 98, 98);
+    cursor: pointer;
+}
+
+#Wadi:hover {
+
+    fill: rgb(34, 19, 21);
+    cursor: pointer;
+}
+
+#So:hover {
+
+    fill: rgb(231, 94, 31);
+    cursor: pointer;
+}
+
+#Port:hover {
+
+    fill: rgb(41, 48, 38);
+    cursor: pointer;
+}
+
+#Dak:hover {
+
+    fill: rgb(75, 33, 158);
+    cursor: pointer;
+}
+
+#Red:hover {
+
+    fill: rgb(24, 15, 75);
+    cursor: pointer;
+}
+
+#Aswan:hover {
+
+    fill: rgb(49, 94, 91);
+    cursor: pointer;
+}
+#Mat:hover {
+
+    fill: rgb(49, 94, 91);
+    cursor: pointer;
+}
+
+
+#un:hover {
+
+    fill: rgb(28, 156, 129);
+}
+
+#un2:hover {
+
+    fill: rgb(49, 240, 75);
+}
+
+
+  
+#MatrouhInfo {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    color: aqua;
+  }
+
+  /* #LuxorInfo {
+    visibility: hidden;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    color: aqua;
+  } */
+
+#MinyaInfo {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    color: aqua;
+}
+

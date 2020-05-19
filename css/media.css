@@ -1,0 +1,58 @@
+ @media screen and (min-width:600px){
+    /* #navbar{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1;
+    } */
+
+#show-nave{
+    display: none;
+}
+
+}
+/*************/
+
+@media screen and (max-width:600px)
+{
+#slider{
+    display: none;
+}
+.fa-american-sign-language-interpreting{
+    float: none; 
+}
+
+nav .navbar a{
+    display: none;
+    font-size: 15px;
+    padding: 17px;
+    
+}
+
+
+
+#show-nave{
+    float: right;
+}
+
+
+.left-fram{
+    width: 100%;
+   
+}
+.cities-fram .tablinks{
+    display: inline;
+}
+
+.tabcontent{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+}
+*img{
+    max-width: 100%;
+    height: auto;
+}
+
+}
+

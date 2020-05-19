@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Minia Safari</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+         <!-- fontowsem library -->
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+         <!-- css style files -->
+<link rel="stylesheet" type="text/css" href="css/styles-def.css">
+<link rel="stylesheet" type="text/css" href="css/sliderstyle.css">
+<link rel="stylesheet" type="text/css" href="css\media.css">
+
+          <!-- javascript file -->
+<script src="j.s/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>
+  
+   <!-- slider -->
+  <section id="slider" style="max-width: 100%;">
+    <ul class="slid-show">
+      <li> <img src="images/headslider/0.jpg"> </li>
+      <li> <img src="images/headslider/1.jpg"> </li>
+      <li> <img src="images/headslider/2.jpg"> </li>
+      <li> <img src="images/headslider/3.jpg"> </li>
+      <li> <img src="images/headslider/4.jpg"> </li>
+      <li> <img src="images/headslider/5.jpg"> </li>
+      <li> <img src="images/headslider/6.jpg"> </li>
+      <li> <img src="images/headslider/7.jpg"> </li>
+    </ul>  
+  </section>
+
+   <!-- navbar-->
+<nav id="navbar"> 
+   <div class="navbar nav" id="nav">
+     <i class="fa fa-american-sign-language-interpreting fa-3x"></i>
+     <a href="#" class="btnLink" onclick="opennav(event, 'about')"><i class="fa fa-users fa-1x"> About Us</i> </a> 
+     <a href="#" id="default" class="btnLink" onclick="opennav(event, 'home')"><i class="fa fa-home fa-1x"> Home</i></a>    
+     <a href="Interactive%20Map/Index-info.html"  target="_blank" class="btnLink" ><i class="fa fa-map fa-1x"> Interactive Map</i></a>    
+     <a href="#" class="btnLink" onclick="opennav(event, 'Contact')"><i class="fa fa-phone fa-1x"> Contact</i></a>       
+     <a href="#" class="btnLink" onclick="opennav(event, 'rejest')"><i class="fa fa-wpforms 1x"> Booking</i></a> 
+     <button href="#" id="show-nave" ><span class="fa fa-align-justify"></span> </button>      
+   </div>  
+</nav>  
+    
+  <!--aside links content--> 
+<section id="home" class="btnContent">   
+ 
+  <!-- the aside button that on cklick on it show the cities names links-->
+<aside class="left-fram">   
+<section class="cities-fram">
+<div class=" showcity"><i class="fa fa-arrows-v fa-1x fa-spin"></i> Take A Tour </br></br>
+  <button class="tablinks" onclick="openCity(event, 'Luxor')" id="defaultOpen">Luxor</button>
+  <button class="tablinks" onclick="openCity(event, 'Suhaj')">Sohag</button>
+  <button class="tablinks" onclick="openCity(event, 'Qina')">Qina</button>
+  <button class="tablinks" onclick="openCity(event, 'Asyut')">Asyut</button>
+  <button class="tablinks" onclick="openCity(event, 'Aswan')">Aswan</button>
+  <button class="tablinks" onclick="openCity(event, 'Al-Minya')">Al Minya</button>
+  <button class="tablinks" onclick="openCity(event, 'Al-Jizah')">Al Jizah</button>
+  <button class="tablinks" onclick="openCity(event, 'Al-Iskandariyah')">Alexandria</button>
+  <button class="tablinks" onclick="openCity(event, 'Al-Fayyum')">Al Fayyum</button>
+  <button class="tablinks" onclick="openCity(event, 'Matruh')">Matruh</button>
+  <button class="tablinks" onclick="openCity(event, 'Bur-Said')">Bur Sa`id</button>
+  <button class="tablinks" onclick="openCity(event, 'Al-Suways')">Al Suways</button>
+  <button class="tablinks" onclick="openCity(event, 'Al-Qahirah')">Al Qahirah</button>
+  <button class="tablinks" onclick="openCity(event, 'Sharm')">Sharm Al Shek</button>
+</div>
+</section>
+</aside> 
+    
+    
+    <!-- Luxor content that will display-->
+<section id="Luxor" class="tabcontent">
+  <h1>Luxor</h1>
+    <h2>Welcome to Luxor</h2>
+     <p class="info">Luxor is often called the world’s greatest open-air museum, but that comes nowhere near describing this extraordinary place. Nothing in the world compares to the scale and grandeur of the monuments that have survived from ancient Thebes. </p>
+    
+    <button class="moretextbtn" onclick="changtext()" ><i id="lux" class="fa fa-arrow-down fa-1x "> Read More</i></button>
+  <div class="extra-info" style="display: none">
+    Luxor was the ancient city of Thebes, the great capital of (Upper) Egypt during the New Kingdom, and the glorious city of Amun, later to become the god Amun-Ra. The city was regarded in the Ancient Egyptian texts as (approximate pronunciation: "Waset"), which meant "city of the sceptre" (conventionally pronounced as "ta ipet" and meaning "the shrine") and then, in a later period, the Greeks called it Thebai and the Romans after them Thebae. Thebes was also known as "the city of the 100 gates", sometimes being called "southern Heliopolis" ('Iunu-shemaa' in Ancient Egyptian), to distinguish it from the city of Iunu or Heliopolis, the main place of worship for the god Ra in the north. It was also often referred to as niw.t, which simply means "city", and was one of only three cities in Egypt for which this noun was used (the other two were Memphis and Heliopolis).Montuhotep II who united Egypt after the troubles of the first intermediate period brought stability to the lands as the city grew in stature. The Pharaohs of the New Kingdom in their expeditions to Kush, in today's northern Sudan, and to the lands of Canaan, Phoenicia and Syria saw the city accumulate great wealth and rose to prominence, even on a world scale.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a >
+        <img src="images/luxor/1.jpg" onclick="window.open('images/luxor/1.jpg', '_blank');">
+        <img src="images/luxor/2.jpg" onclick="window.open('images/luxor/2.jpg', '_blank');">
+        <img src="images/luxor/3-luxor-temple.jpg" onclick="window.open('images/luxor/3-luxor-temple.jpg', '_blank');">
+        <img src="images/luxor/4-maxresdefault-.jpg" onclick="window.open('images/luxor/4-maxresdefault-.jpg', '_blank');">
+        <img src="images/luxor/5.jpg" onclick="window.open('images/luxor/5.jpg', '_blank');">
+        <img src="images/luxor/8-936208658_Luxor%20at%20sunrise.jpg" onclick="window.open('images/luxor/8-936208658_Luxor%20at%20sunrise.jpg', '_blank');">
+        <img src="images/luxor/5-Ramsespaid1.jpg" onclick="window.open('images/luxor/5-Ramsespaid1.jpg', '_blank');">
+        <img src="images/luxor/6-20875.jpg" onclick="window.open('images/luxor/6-20875.jpg', '_blank');"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Luxor</h1>
+       
+       <article class="city">
+          <h3>1. Temple of Karnak</h3>
+           <p><img src="images/luxor/egypt-luxor-temple-of-karnak.jpg" style="width: 300px; height: 300px;">Of all Luxor's many monuments, the Temple Complex of Karnak has to be its most astonishing and beautiful feat. Within its precincts are the Great Temple of Amun, the Temple of Khons, and the Festival Temple of Tuthmosis III, as well as many other buildings</p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Temple of Deir al-Bahri (Queen Hatshepsut's Temple)</h3>
+           <p ><img src="images/luxor/egypt-luxor-temple-of-deir-al-bahri.jpg" style="width: 300px; height: 300px;">The Temple of Deir el-Bahri is magnificently situated at the foot of the sheer cliffs fringing the desert hills, the light-colored, almost white, sandstone of the temple standing out prominently against the golden yellow to light brown rocks behind. The temple complex is laid out on three terraces rising from the plain, linked by ramps, which divide it into a northern and a southern half. Along the west side of each terrace is a raised colonnade.</p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Medinet Habu</h3>
+           <p><img src="images/luxor/egypt-luxor-medinet-habu.jpg" style="width: 300px; height: 300px;">With the famous Valley of the Kings and Temple of Deir al-Bahri the main attractions, Medinet Habu often gets overlooked on a West Bank trip, but this is one of Egypt's most beautifully decorated temples and should be on everyone's West Bank hit list. The complex consists of a small, older temple built during the 18th dynasty and enlarged in the Late Period, and the great Temple of Ramses III, associated with a royal palace, which was surrounded by a battlemented enclosure wall four meters high.</p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Hot Air Balloon Ride over Luxor at Sunrise</h3>
+           <p><img src="images/luxor/egypt-luxor-attractions-things-to-do-sunrise.jpg" style="width: 300px; height: 300px;">Luxor can get so hot during the day, so it's a good idea to plan some activities for the early hours of morning or very late in the afternoon. Early risers are definitely rewarded here, as many of the sights open at 6am. For great aerial views over the entire west bank, with its temples and village farmland tucked between the escarpment, take a hot air balloon ride, the town's most popular activity, with balloons all taking off just after sunrise</p>     
+       </article>
+       
+   </section>
+</section>
+ <!-- luxor content end-->
+    
+    
+    <!-- Suhaj content that will display-->
+<section id="Suhaj" class="tabcontent">
+    <h1>Sohag</h1>    
+<h2>Welcome to Sohag</h2>
+     <p class="info">
+        Sohag is one of the major Coptic Christian areas of Upper Egypt. Although there are few sights in the city, the nearby White and Red Monasteries are well worth a visit, and the town of Akhmim, across the river, is of interest. 
+     </p>
+    
+    <button class="moretextbtn" onclick="changtextsuh()"><i id="Suh" class="fa fa-arrow-down fa-1x "> Read More</i></button>
+  <div class="extra-info" style="display: none">
+     It is one of the governorates of Upper Egypt which has a deep-rooted history and heritage which extends to the ancient ages, where Abydos, now located in Markaz Belina, was the capital of Egypt all through the eras of the first four Pharaonic Dynasties. Also, the ancient city of This (Thinis) or El-Tina, the village of mud or clay just north of Abydos, was home and headquarters of the first Pharaoh of Egypt, known in history as Mina Narmer who managed to unify Egypt.
+     During the Islamic era, the whole area of the governorate had been a part of Egypt under the Ottoman Empire until it became a separate province called Upper Egypt or Girga and its capital was Girga city. Later, with the rule of Muhammad Ali, Egypt was divided into directorates. However, Girga Directorate kept its name until 1960, when the capital was moved to Sohag and the name of the governorate changed accordingly.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/sohag/sohag1.jpg" onclick="window.open('images/sohag/sohag1.jpg', '_blank');">
+      <img src="images/sohag/sohag2.jpg" onclick="window.open('images/sohag/sohag2.jpg', '_blank');">
+      <img src="images/sohag/sohag3.jpg" onclick="window.open('images/sohag/sohag3.jpg', '_blank');">
+      <img src="images/sohag/sohag4.jpg" onclick="window.open('images/sohag/sohag4.jpg', '_blank');">
+      <img src="images/sohag/sohag5.jpg" onclick="window.open('images/sohag/sohag5.jpg', '_blank');">
+      <img src="images/sohag/sohag6.jpg" onclick="window.open('images/sohag/sohag6.jpg', '_blank');">
+      <img src="images/sohag/sohag7.jpg" onclick="window.open('images/sohag/sohag7.jpg', '_blank');">
+      <img src="images/sohag/sohag8.jpg" onclick="window.open('images/sohag/sohag8.jpg', '_blank');">
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Sohag</h1>
+       
+       <article class="city">
+          <h3>1. Red Monastery</h3>
+           <p><img src="images/sohag/sohag9.jpg" style="width: 300px; height: 300px;">
+                The Red Monastery, 4km southeast of the White Monastery and hidden at the rear of a village, is one of the most remarkable Christian buildings in Egypt. It was founded by Besa, a disciple of Shenoudaested tombs there such as; the royal tomb of Akhenaton, The tomb of "Hoya", the watcher of the harem, the tomb of Ahmos that was the Royal fan bearer, the tomb of MeriRa the high priest of God Aten and drawings of Akhenaton and the tomb of Maho the leader of the police in the period of Akhenaton and his tomb is one of the best-preserved tombs in Tel Al Amarna.
+           </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. White Monastery </h3>
+           <p><img src="images/sohag/sohag10.jpg" style="width: 300px; height: 300px;">
+                On rocky ground above the old Nile flood level, 6km northwest of Sohag, the White Monastery was founded by St Shenouda around AD 400 and dedicated to his mentor, St Bigol. White limestone from Pharaonic temples 
+           </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Akhmim</h3>
+           <p><img src="images/sohag/sohag11.jpg" style="width: 300px; height: 300px;">
+              The satellite town of Akhmim, on Sohag’s east bank, covers the ruins of the ancient Egyptian town of Ipu, itself built over an older predynastic settlement. It was dedicated to Min, a fertility god often represented by a giant phallus, equated with Pan by the Greeks (who later called the town Panopolis). A taxi to Akhmim should cost around LE50 per hour. The microbus, if you are allowed to take it, costs LE6 and takes 15 minutes.
+           </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Sohag National Museum</h3>
+           <p><img src="images/sohag/sohag12.jpg" style="width: 300px; height: 300px;">
+               The recently renovated Sohag National Museum displays local antiquities, including those from ongoing excavations of the temple of Ramses II in Akhmim.
+           </p>     
+       </article>
+       
+   </section>
+</section>
+   
+    <!-- Qina content that will display -->
+<section id="Qina" class="tabcontent">
+  <h1>Qina</h1>    
+<h2>Welcome to  Qina</h2>
+     <p class="info">
+        Qena governorate in Upper Egypt, extending 3–4 miles (5–6 km) on each side of the Nile River between the Arabian and Libyan deserts. Occupying the great bend in the Nile valley, it extends along 110 miles (180 km) of the river.
+     </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+    Most of its land is under basin irrigation, yielding only one crop annually. Main crops are sugar (the governorate has more than one-third of the country’s productive land for sugarcane), lentils, and grains. Perennial irrigation water, mainly from the Kelabiya and A?f?n canals, is supplied from the Isn? Barrage
+ </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/qina/1.jpg" onclick="window.open('images/qina/1.jpg', '_blank');">
+      <img src="images/qina/2.jpg" onclick="window.open('images/qina/2.jpg', '_blank');">
+      <img src="images/qina/3.jpg" onclick="window.open('images/qina/3.jpg', '_blank');">
+      <img src="images/qina/4.jpg" onclick="window.open('images/qina/4.jpg', '_blank');">
+      <img src="images/qina/5.jpg" onclick="window.open('images/qina/5.jpg', '_blank');">
+      <img src="images/qina/6.jpg" onclick="window.open('images/qina/6.jpg', '_blank');">
+      <img src="images/qina/7.jpg" onclick="window.open('images/qina/7.jpg', '_blank');">
+      <img src="images/qina/8.jpg" onclick="window.open('images/qina/8.jpg', '_blank');">
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Qina</h1>
+       
+       <article class="city">
+          <h3>1. Sidi Abdel-Rahim El-Qenawy Mosque  </h3>
+           <p><img src="images/qina/9.jpg" style="width: 300px; height: 300px;">
+               Sidi Abd Er-Rahim Mosque is one of famous mosque in Eygpt ,its a fantastic place and also the Islamic atmosphere when you are in the mosque you need to relaxing and enjoy our time with the god,
+			   you can ask the god for every thing when you pray.
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Al-Omari Mosque </h3>
+           <p><img src="images/qina/10.jpg" style="width: 300px; height: 300px;">
+             is one of famous mosque in Eygpt ,its a fantastic place and also the Islamic atmosphere when you are in the mosque you need to relaxing and enjoy our time with the god,
+			   you can ask the god for every thing when you pray.
+          </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Dandara Temple </h3>
+           <p><img src="images/qina/11.jpg" style="width: 300px; height: 300px;">
+             Dandara Temple was built during the New Kingdom, specifically the 18th Dynasty. The current complex, including the Temple of Hathor, however, dates to the Ptolemaic and Roman periods, with (at least) one building dating to the Late Period. This is the mammisi (birth house) of Nectanebo II,
+			 the last native ruler of ancient Egypt who ruled during the 4th century BC.
+          </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Isna Temple </h3>
+        <p><img src="images/qina/12.jpg" style="width: 300px; height: 300px;">
+         temple of Esna dedicated to the god Khnum, his consorts Menhit and Nebtu, their son, Heka, and the goddess Neith,
+		 was remarkable for the beauty of its site and the magnificence of its architecture. It was built of red sandstone, and its portico consisted of six rows of four columns each, with lotus-leaf capitals, all of which however differ from each other.[14] The temple contains very late hieroglyphic inscription,
+		 dating from the reign of Decius (249–251 AD).
+        </p>     
+       </article>
+   </section>
+</section>
+      
+    <!-- Asyut content that will display-->
+<section id="Asyut" class="tabcontent">
+    <h1>Assiut</h1>    
+     <h2>Welcome to Assiut</h2>
+     <p class="info">
+         the city of Asyut has almost 400,000 inhabitants. It is the Egyptian city with one of the highest Coptic Christian concentration of approximately 50%. It is also home to the Assiut University, one of the largest universities in Egypt, to the Assiut Barrage, and to the Lillian Trasher Orphanage 
+      </p>
+    
+    <button class="moretextbtn" onclick="changtextasu()"><i id="asu" class="fa fa-arrow-down fa-1x"> Read More</i></button>
+  <div class="extra-info" style="display: none">
+    The name is derived from the Pharaonic word "Seut" which means "the guard". Asyut is located between two mountainous highlands and therefore its climate is extreme continental and it is the commercial capital of Upper Egypt. It is famous for its old neighborhoods and ruins, especially in the city of Assiut, Abutij and Sadafa. The ancient Egyptians built the city of Assiut on the Nile River and was named at the time "Seut" is derived from the word (Sa'ut) and means the guard in the ancient Egyptian language then the Arabs changed the name to Assiut and so retained Assiut in its name and retained its status as the capital through the ages was the rule of the Pharaohs rule As for the thirteenth province and was inhabited by the Deputy King and in the era of the Greeks divided Egypt to the Delta and Central Egypt and Upper Egypt Was Assiut capital of one of these sections was also the capital of the northern section in the era of the Romans and in the era of Muhammad Ali Egypt was divided into seven states,
+    one of which includes Gerga and Assiut.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/assiut/assiut1.jpg" >
+      <img src="images/assiut/assiut2.jpg" >
+      <img src="images/assiut/assiut3.jpg">
+      <img src="images/assiut/assiut4.jpg" >
+      <img src="images/assiut/assiut5.jpg">
+      <img src="images/assiut/assiut6.jpg">
+      <img src="images/assiut/assiut7.jpg">
+      <img src="images/assiut/assiut8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Assiut</h1>
+       
+       <article class="city">
+          <h3>1. Deir El Gabrawi</h3>
+           <p><img src="images/assiut/assiut9.jpg" style="width: 300px; height: 300px;">
+           During the 6th dynasty, the powerful nomarchs of the 12th nome of Upper Egypt were buried in rock-cut tombs near Deir El Gabrawi. Some of these nomarchs held the title Great Overloard of the Abydene Nome, and so controlled a large area extending from the 8th nome (Abydos) to the 13th nome of Upper Egypt. It is remarkable that some scenes in the tomb of one of these nomarchs, Ibi, occur again in the Theban tomb (TT36) of a man of the same name from the reign of Psammetichus I, about 1600 years later.
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Al-Muharraq monastery </h3>
+           <p ><img src="images/assiut/assiut10.jpg" style="width: 300px; height: 300px;">
+               The area where the Monastery of Al-Muharraq is located now at Mount Qosqam, was barren desert and so every town surrounding it today was non-existent, except for an abandoned house and water well adjacent to it. The Holy Family, (the child Jesus and his mother St. Mary, St. Joseph the carpenter and Salome; their helper), rested in that modest house after it was repaired and restored by St. Joseph.
+            </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Hatnub quarries</h3>
+           <p><img src="images/assiut/assiut11.jpg" style="width: 300px; height: 300px;">
+              Hatnub was the location of Egyptian alabaster quarries and an associated seasonally occupied workers' settlement in the Eastern Desert, about 65 km (40 mi) el-Minya, southeast of el-Amarna. The pottery, hieroglyph inscriptions and hieratic graffiti at the site show that it was in use intermittently from at least as early as the reign of Khufu until the Roman period (c. 2589 BC–AD 300). The Hatnub quarry settlement, associated with three principal quarries.
+            </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. El badari region</h3>
+           <p><img src="images/assiut/assiut12.jpg" style="width: 300px; height: 300px;">
+              The finds from El Badari form the original basis for the Badarian culture (c. 5500-4000 BC), the earliest phase of the Upper Egyptian Predynastic period. The area stretches for 30 km along the east bank of the Nile, and was first excavated by Guy Brunton and Gertrude Caton-Thompson between 1922 and 1931. Most of the cemeteries in the Badarian region have yielded distinctive pottery vessels (particularly red-polished ware with blackened tops), as well as terracotta and ivory anthropomorphic figures, slate palettes, stone vases and flint tools. 
+            </p>     
+       </article>
+       
+   </section>
+</section>
+
+    <!-- Aswan content that will display-->
+<section id="Aswan" class="tabcontent">
+  
+  <h1>Aswan</h1>
+  <h2>Welcome to Aswan</h2>
+  <p class="info">
+      Aswan is a busy market and tourist centre located just north of the Aswan Dam on the east bank of the Nile at the first cataract. The modern city has expanded and includes the formerly separate community on the island of Elephantine.
+    </p>
+    
+  <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+    The weather of Aswan is extremely clear, bright and sunny year-round, in all seasons, with a low seasonal variation, with almost 4,000 hours of annual sunshine, very close to the maximum theoretical sunshine duration. Aswan is one of the sunniest places on Earth.
+  </div>
+  
+  <section class="c-galary"> 
+     <a>
+	      <img src="images/aswan/1.jpg">
+        <img src="images/aswan/2.jpg">
+        <img src="images/aswan/3.jpg">
+        <img src="images/aswan/4.jpg">
+        <img src="images/aswan/5.jpg">
+        <img src="images/aswan/6.jpg">
+        <img src="images/aswan/7.jpg">
+        <img src="images/aswan/8.jpg">
+		  </a>
+  </section> 
+    
+   <section class="c-Related">
+     <h1>Related Attractions in Aswan</h1>
+       
+       <article class="city">
+		 <h3>1. Philae Temple</h3>
+		 <p><img src="images/aswan/phila.jpg" style="width: 300px; height: 300px;">
+		   Philae is the most picturesque of all Egypt’s temples,
+		   it sits on a Nile island reached by small motor launch.
+		   the island’s temples were submerged for a part of each year.
+		   With the building of the High Dam (1969–71)
+		   , the temples were relocated to nearby Agilika Island,
+		   which was landscaped to match the original site.
+        </p>
+       </article>
+  
+
+      
+       
+       <article class="city">
+          <h3>2. Abu Simbel Temples</h3>
+        <p ><img src="images/aswan/9.jpg" style="width: 300px; height: 300px;">
+		   This site south of Aswan along Lake Nasser’s shore is the most famous in all of Egypt after the Giza Pyramids. Built by the greatest of the pharaohs, Ramesses II, these huge rock-cut temples marked the southern boundary of the Egyptian Empire with Nubia at the peak of its power during the New Kingdom. They were meant to convey the power of Egypt’s rulers to anyone who laid eyes upon them.
+        </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. High Dam</h3>
+           <p><img src="images/aswan/10.jpg" style="width: 300px; height: 300px;">
+		   The Aswan High Dam yields enormous benefits to the economy of Egypt. For the first time in history, the annual Nile flood can be controlled by man. The dam impounds the floodwaters, releasing them when needed to maximize their utility on irrigated land, to water hundreds of thousands of new acres, to improve navigation both above and below Asw?n, and to generate enormous amounts of electric power (the dam’s 12 turbines can generate 10 billion kilowatt-hours annually). The reservoir, which has a depth of 300 feet (90 metres) and averages 14 miles (22 km) in width, supports a fishing industry.</p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Kom Ombo Temple</h3>
+           <p><img src="images/aswan/11.jpg" style="width: 300px; height: 300px;">
+		    The Location of the Temple of Kom Ombo
+            The small town of Kom Ombo is situated on the East side of the Nile, 45 kilometers to the north of the city of Aswan and about 800 kilometers to the south of Cairo, the capital of Egypt.
+            Surrounded by fields of sugarcane and corn, Kom Ombo is a pleasant agriculture town that now hosts many Nubians were displaced when the Nile flooded their hometowns after the construction of the Nasser Lake.
+           </p>     
+       </article>
+       
+   </section>
+  
+</section>
+</section>
+
+
+    <!-- Al Minya content that will display-->
+<section id="Al-Minya" class="tabcontent">
+    <h1>Minya</h1>    
+<h2>Welcome to Minya</h2>
+     <p class="info">
+         Al Minya is small city in Middle Egypt that does not receive much attention on      the tourist map, but it was once a powerful regional capital within Egypt. During the First Intermediate Period, when the authority that ruled Egypt from Memphis during the Old kingdom broke down. 
+    </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+     Minya became a minor power center and it continued to hold sway over the center of Egypt through the Middle Kingdom.
+     Visiting Al Minya is not a common stop on most tours. The sites are visited much less frequently and the atmosphere of the town is not geared toward foreign visitors. While the town doesn’t offer much to visitors, there are some interested colonial era buildings in the old section of town near the central midan, Tahrir Square.
+     The tombs of Beni Hassan, cut into the rocky cliffs on the east side of the Nile, date from the period of Al Minya’s influence. There are 39 tombs in all, but only the four most impressive are open to the public.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/minya/minya1.jpg">
+      <img src="images/minya/minya2.jpg">
+      <img src="images/minya/minya3.jpg">
+      <img src="images/minya/minya4.jpg">
+      <img src="images/minya/minya5.jpg">
+      <img src="images/minya/minya6.jpg">
+      <img src="images/minya/minya7.jpg">
+      <img src="images/minya/minya8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Minya</h1>
+       
+       <article class="city">
+          <h3>1. Tell El Amarna and Beni Hassan</h3>
+           <p><img src="images/minya/minya9.jpg" style="width: 300px; height: 300px;">
+            Start your day tour to AlMinya with Tall El Amarna which was the capital of Akhenaton during the new kingdom. It was called "akht Aten". Your guide will help you to enjoy and explore the most interested tombs there such as; the royal tomb of Akhenaton, The tomb of "Hoya", the watcher of the harem, the tomb of Ahmos that was the Royal fan bearer, the tomb of MeriRa the high priest of God Aten and drawings of Akhenaton and the tomb of Maho the leader of the police in the period of Akhenaton and his tomb is one of the best-preserved tombs in Tel Al Amarna.
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Tomb of Kheti </h3>
+           <p ><img src="images/minya/minya10.jpg" style="width: 300px; height: 300px;">
+               The no march Kheti bore the title *Great Leader of the Gazelle Nome in its Entirety* the hall-like room (c. 39 ×16 m) with its gently vaulted ceiling is divided at the rear of the cult chamber by two rows of columns.
+            </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Tomb of Baket</h3>
+           <p><img src="images/minya/minya11.jpg" style="width: 300px; height: 300px;">
+              Baket, another no march , had a tomb very similar to that of his son Kheti. In the case of the father however the large room (14 x 54 ft. 12.5 x 16.5 m) was divided by only two lotus stem columns.
+           </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Tomb of Amenemhet</h3>
+           <p><img src="images/minya/minya12.jpg" style="width: 300px; height: 300px;">
+              The tombs of Amenemhet is without doubt one of the finest in Beni Hassan. The cult chamber is organized by four rows of 16- sided Its main axis is oriented towards a large statue niche in the eastern wall containing a seated image of Ameni ( an abbreviated name of the tomb owner ) with figures of his wife and mother. The central vault of the ceiling features a mat pattern while the entrance (doorway) is decorated with a long biographical inscription recounting this no march's     various military activities. It dates from the 43rd year of the regain of Semester.
+            </p>     
+       </article>
+       
+   </section>
+</section>
+
+    
+    <!-- Al Jizah content that will display-->
+<section id="Al-Jizah" class="tabcontent">
+   <h1>ALGiza</h1>
+    <h2>Welcome to ALGiza</h2>
+      <p class="info">
+         capital of Al-Jizah (governorate) in Upper Egypt, located on the west bank of the Nile River just south-southwest of Cairo. It is a suburb of the national capital, with a distinctive character enriched by several archaeological and cultural sites.
+    </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+   <div class="extra-info" style="display: none">
+      Southwest of the city are the three great pyramids of the pharaohs: Khufu (Cheops), Khafre (Chephren), and Menkaure (Mykerinos), all 4th dynasty (c. 2575–c. 2465 bce). Al-J?zah was linked to Cairo by a bridge of boats and then by successive permanent bridges.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+        <img src="images/algiza/1.jpg">
+        <img src="images/algiza/2.jpg">
+        <img src="images/algiza/3.jpg">
+        <img src="images/algiza/4.jpg">
+        <img src="images/algiza/5.jpg">
+        <img src="images/algiza/6.jpg">
+        <img src="images/algiza/7.jpg">
+        <img src="images/algiza/8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in ALGiza</h1>
+       
+       <article class="city">
+          <h3>1. pyramids</h3>
+           <p><img src="images/algiza/1.jpg" style="width: 300px; height: 300px;">
+		   The Giza Pyramids, built to endure an eternity,
+		   have done just that.
+		   The monumental tombs are relics of Egypt's Old Kingdom era and were constructed some 4,500 years ago.
+		   </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. sphinx</h3>
+           <p ><img src="images/algiza/3.jpg" style="width: 300px; height: 300px;">
+		   Great Sphinx of Giza, colossal limestone statue of a recumbent sphinx located in Giza, Egypt, that likely dates from the reign of King Khafre (c. 2575–c. 2465 bce) and depicts his face.
+		   It is one of Egypt’s most famous landmarks and is arguably the best-known example of sphinx art.
+		    
+			</p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Saqqara pyramid</h3>
+           <p><img src="images/algiza/10.jpg" style="width: 300px; height: 300px;">
+		   Saqqara is one of several other notable necropolis sites near Cairo that offer impressive sights and hold great archaeological significance. In fact, Saqqara may hold more interest to archaeologists than Giza.
+		   The huge site hosts burials dating from before the beginning of the Old Kingdom up through the Greek Period of Egyptian history.</p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Zoo</h3>
+           <p><img src="images/algiza/12.jpg" style="width: 300px; height: 300px;">
+             Photo Credit: Egyptian Streets
+             A visit to the Giza Zoo is one of the most common activities among Egyptian families to enjoy a day out in a public area.
+              With great enthusiasm, families, children, and school trips rush to Giza Zoo to enjoy a day with animals.</p>     
+       </article>
+  </section>
+ </section>
+    
+    <!-- Al Iskandariyah content that will display-->
+<section id="Al-Iskandariyah" class="tabcontent">
+    <h1>Alexandria</h1>    
+     <h2>Welcome to Alexandria</h2>
+     <p class="info">
+        Alexandria is the second-largest city in Egypt and a major economic center. With a population of 5,200,000, Alexandria is the largest city on the Mediterranean, the sixth-largest city in the Arab world and the ninth-largest in Africa. The city extends about 40 km (25 mi) at the northern coast of Egypt along the Mediterranean Sea. Alexandria is a popular tourist destination, and also an important industrial center because of its natural gas and oil pipelines from Suez.
+    </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+      Founded in 331 BC by 25-year-old Alexander the Great, Alexandria (Al Iskendariyya) is the stuff of legend. Its towering Pharos lighthouse, marking the ancient harbour's entrance, was one of the Seven Wonders of the World, and its Great Library was considered the archive of ancient knowledge. Alas, fate dealt the city a spate of cruel blows. The Pharos collapsed and the Great Library was torched. Part of the ancient city disappeared under the sea and part under the modern city, so there are few visible remains of the glorious past.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/alex/1.jpg">
+      <img src="images/alex/2.jpg">
+      <img src="images/alex/3.jpg">
+      <img src="images/alex/4.jpg">
+      <img src="images/alex/5.jpg">
+      <img src="images/alex/6.jpg">
+      <img src="images/alex/7.jpg">
+      <img src="images/alex/8.jpg">
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Alexandria</h1>
+       
+       <article class="city">
+          <h3>1. Bibliotheca Alexandrina </h3>
+           <p><img src="images/alex/9.jpg" style="width: 300px; height: 300px;">
+             Alexandria’s ancient library was one of the greatest of all classical institutions, and while replacing it might seem a Herculean task, the new Bibliotheca Alexandrina manages this with aplomb. Opened in 2002, this impressive piece of modern architecture is a deliberate attempt to rekindle the brilliance of the original centre of learning and culture. The complex has become one of Egypt’s major cultural venues and a stage for numerous international performers, and is home to a collection of brilliant museums. 
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Alexandria National Museum </h3>
+           <p ><img src="images/alex/10.jpg" style="width: 300px; height: 300px;">
+               This excellent museum sets a high benchmark with its summary of Alexandria’s past. Housed in a beautifully restored Italianate villa, the small but thoughtfully selected and well-labelled collection does a sterling job of relating the city’s history from antiquity until the modern period. Look out especially for the beautiful tanagra – terracotta statues of Greek women – and the discoveries found underwater in the Mediterranean.
+            </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Mahmoud Said Museum</h3>
+           <p><img src="images/alex/11.jpg" style="width: 300px; height: 300px;">
+               Mahmoud Said (1897–1964) was one of Egypt’s finest 20th-century artists, even though he is little known outside his country. A judge by profession, he moonlighted as a painter and became a key member of a group of sophisticates devoted to forging an Egyptian artistic identity in the 1920s and '30s. This museum presents about 40 of his works in the beautiful Italianate villa in which he once lived. You will need to show a passport to get in.
+           </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Fort Qaitbey </h3>
+           <p><img src="images/alex/12.jpg" style="width: 300px; height: 300px;">
+              The Eastern Harbour is dominated by the bulky walls of Fort Qaitbey, built on a narrow peninsula over the remains of the legendary Pharos lighthouse by the Mamluk sultan Qaitbey in 1480. Finely restored, it has a warren of rooms to explore, and the walk here is just as rewarding. From Midan Ramla it's a 30- to 45-minute stroll along the Corniche with spectacular harbour views along the way.
+           </p>     
+       </article>
+       
+   </section>
+</section>
+
+    
+    <!-- Al Fayyum content that will display-->
+<section id="Al-Fayyum" class="tabcontent">
+   <h1>ALFayom</h1>    
+<h2>Welcome to  ALFayom</h2>
+     <p class="info">
+ Less than two hours from Cairo, the vast salty Lake Qarun comes into view and the arid monotonous plains are replaced with a lush patchwork of farming plots, sunflowers swaying in the breeze, and tall date palms with water buffalo lounging in the shade beside them.
+</p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+   This large fertile basin, about 70km wide and 60km long, is often referred to as an oasis, though technically it’s watered not by springs but by the Nile via hundreds of capillary canals, many dug in ancient times. The area harbours a number of small but important archaeological sites; slumped, stubby remains of pyramids and crumbled remnants of once vast Ptolemaic cities that were major centres of crocodile worship. Fayoum is also the base for adventures out to Wadi Rayyan's desert lakes and to Wadi Al Hittan, where prehistoric whale skeletons sit amid a sweep of rock-outcrop dotted sand.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/al fayom/1.jpg">
+      <img src="images/al fayom/2.jpg">
+      <img src="images/al fayom/3.jpg">
+      <img src="images/al fayom/4.jpg">
+      <img src="images/al fayom/5.jpg">
+      <img src="images/al fayom/6.jpg">
+      <img src="images/al fayom/7.jpg">
+      <img src="images/al fayom/8.jpg">
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Al Fayom</h1>
+       
+       <article class="city">
+          <h3>1. Hawara Pyramid </h3>
+           <p><img src="images/al fayom/10.jpg" style="width: 300px; height: 300px;">
+              The Pyramid of Hawara was built out of brick stones and then coated by limestone. It is sometimes called the Black Pyramid. When it was still standing, the Pyramid of Hawara was a large structure that was 58 meters high and each side of the base of the pyramid was around 100 meters long
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Tunis village </h3>
+           <p><img src="images/al fayom/9.jpg" style="width: 300px; height: 300px;">
+              The small village of Tunis is located in the oasis of Fayoum , on the way to Wadi Rayan. Located on a hill facing a large salt water lake, the village overlooks a stunning view of the edge of the desert on the other side of the lake. It is one of the most beautiful places in Egypt.
+          </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Wadi Al-Hitan (Whale Valley) </h3>
+           <p><img src="images/al fayom/11.jpg" style="width: 300px; height: 300px;">
+              Wadi Al-Hitan, Whale Valley, in the Western Desert of Egypt, contains invaluable fossil remains of the earliest, and now extinct, suborder of whales, Archaeoceti. These fossils represent one of the major stories of evolution: the emergence of the whale as an ocean-going mammal from a previous life as a land-based animal. This is the most important site in the world for the demonstration of this stage of evolution. It portrays vividly the form and life of these whales during their transition. The number, concentration and quality of such fossils here is unique, as is their accessibility and setting in an attractive and protected landscape.
+          </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. Qasr Qaroun Temple </h3>
+           <p><img src="images/al fayom/12.jpg" style="width: 300px; height: 300px;">
+             Qasr Qarun, an Arabic word means the Palace of Qarun.
+		      This is a well preserved Ptolemaic temple, about 65 kilometers from fayoum city, in the north western corner of the province.
+           </p>     
+       </article>
+  </section>
+</section>
+
+
+
+    <!-- Al Buhayrah content that will display-->
+<section id="Matruh" class="tabcontent">
+  <h1>Marsa Matrouh</h1>
+    <h2>Welcome to Marsa Matrouh</h2>
+     <p class="info">
+      Nestled inside a big circular bay and protected from the high seas by a series of rocks forming a natural breakwater, Marsa Matrouh is a relatively secluded destination on Egypt's Mediterranean shore. It is the capital of the Matrouh Governorate, which extends from the 61st km of the Alexandria-Matrouh highway to the Egypt-Libya  border
+ </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+       With long sandy white beaches and crystal clear waters, such as Agiba Beach and Gharam Beach, described by many as one of the most beautiful seashore landscapes in the world, many believe that Cleopatra herself bathed in the tranquil waters of Marsa Matrouh.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+        <img src="images/Matrouh/1.jpg">
+        <img src="images/Matrouh/2.jpg">
+        <img src="images/Matrouh/3.jpg">
+        <img src="images/Matrouh/4.jpg">
+        <img src="images/Matrouh/5.jpg">
+        <img src="images/Matrouh/6.jpg">
+        <img src="images/Matrouh/7.jpg">
+        <img src="images/Matrouh/8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Marsa Matrouh</h1>
+       
+       <article class="city">
+          <h3>1. Rommel Museum</h3>
+           <p><img src="images/Matrouh/9.jpg" style="width: 300px; height: 300px;">
+            	The Rommel Cave is one of the natural caves in Marsa Matruh. German leader, Erwin Rommel, used it as his headquarters while conducting the North African wars during World War II. In 1997, the idea came up of turning the cave into a museum and tourist destination.	   
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Uma alrakham </h3>
+           <p><img src="images/Matrouh/10.jpg" style="width: 300px; height: 300px;">
+	           Uma Alrakham is also known for its numerous breathtaking beaches with white soft sands and calm, crystal clear waters. The large bay is protected from the high seas by a series of rocks forming a natural breakwater. The water’s colour ranges from blue to green, due to the depths of the bay. The irregular sea ground forms an amazing underwater world of mountains, valleys and colourful fish species.	  
+           </p>     
+       </article> <br>     
+       
+    <article class="city">
+        <h3>3. Coptic Chapel </h3>
+    <p><img src="images/Matrouh/11.jpg" style="width: 300px; height: 300px;">
+	  The Coptic Chapel was built in the early Coptic age. It contains several caves bearing inscriptions.
+    </p>	
+     </article>
+       
+       
+       <article class="city">
+        <h3>4.Egyptian Fleet Anchorage</h3>
+        <p><img src="images/Matrouh/12.jpg" style="width: 300px; height: 300px;">
+		   At the Egyptian Fleet Anchorage, west of the port of Marsa Matruh, you’ll find the remains of Ptolemy’s naval installations.   
+        </p>
+       </article>
+       
+   </section>
+</section>
+
+   
+
+    <!-- Dumyat content that will display-->
+<section id="Bur-Said" class="tabcontent">
+     <h1>Port Said</h1>
+    <h2>Welcome to Port Said</h2>
+    <p class="info">
+      In its late-19th-century raffish heyday, Port Said was Egypt’s city of vice and sin. The boozing seafarers and packed brothels may have long since been scrubbed away, but this louche period is evoked still in the waterfront’s muddle of once-grand architecture slowly going to seed.
+    </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+    attraction, and the reason for the town’s establishment, is the Suez Canal. The raised pedestrian-only boardwalk running along the waterfront provides up-close views over the canal’s northern entry point, allowing travellers to admire the passing supertanker traffic up close. The free ferry that crosses the canal to the languid suburb of Port Fuad is the only opportunity for casual visitors to ride the waters of this marvel of construction.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+        <img src="images/Port Said/1.jpg">
+        <img src="images/Port Said/2.jpg">
+        <img src="images/Port Said/3.jpg">
+        <img src="images/Port Said/4.jpg">
+        <img src="images/Port Said/5.jpg">
+        <img src="images/Port Said/6.jpg">
+        <img src="images/Port Said/7.jpg">
+        <img src="images/Port Said/8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Port Said</h1>
+       
+       <article class="city">
+          <h3>1. Port Said Lighthouse</h3>
+        <p><img src="images/Port Said/9.jpg" style="width: 300px; height: 300px;">
+	      Going all the way back to the construction of the Pharos of Alexandria in the 3rd century B.C.E., Egypt has long been a nation of naval innovation. The Port Said Lighthouse was the first building in the world created with reinforced concrete. Erected in 1869 by François Coignet	   
+        </p>     
+       </article>      
+       
+       <article class="city">
+         <h3>2. The Cornishe </h3>
+         <p ><img src="images/Port Said/10.jpg" style="width: 300px; height: 300px;">
+		    Running along the waterfront is a raised pedestrian-only 8km boardwalk that’s best for close up views of the canal’s entry point. The boardwalk is now filled with little shops selling everything from clothes to electronics, but will soon turn into an open-air center.  
+          </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Port Fouad</h3>
+      <p><img src="images/Port Said/11.jpg" style="width: 300px; height: 300px;">
+	     Port Fouad is one of Egypt’s meeting points between Africa and Asia located in the North-West corner of Sinai on the Mediterranean. It was named after King Fouad I, and because it is a port it became Port Fouad.
+      </p>	
+       </article>
+       
+       
+       <article class="city">
+          <h3>4.Tennis</h3>
+           <p><img src="images/Port Said/12.jpg" style="width: 300px; height: 300px;">
+             Tennis was an important port, exporting agricultural products of Egypt, particularly textiles, of which itself is famed for producing[3] throughout the Middle East, due to its geographical location served by the main eastern tributary of the Nile in medieval times, according to Muhammad al-Idrisi 
+          </p>
+       </article>
+       
+   </section>
+</section>
+
+   
+
+    <!-- Al Suways content that will display-->
+<section id="Al-Suways" class="tabcontent">
+ <h1>AlSuez</h1>
+    <h2>Welcome to AlSuez</h2>
+     <p class="info">
+        is a seaport city (population of about 750,000 as of August 2018) in north-eastern Egypt, located on the north coast of the Gulf of Suez (a branch of the Red Sea),
+    </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+     near the southern terminus of the Suez Canal, having the same boundaries as Suez Governorate. It has three harbours, Adabiya, Ain Sokhna and Port Tawfiq, and extensive port facilities. Together they form a metropolitan area
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+        <img src="images/suez/1.jpg">
+        <img src="images/suez/2.jpg">
+        <img src="images/suez/3.jpg">
+        <img src="images/suez/4.jpg">
+        <img src="images/suez/5.jpg">
+        <img src="images/suez/6.jpg">
+        <img src="images/suez/7.jpg">
+        <img src="images/suez/8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in AlSuez</h1>
+       
+       <article class="city">
+          <h3>1. Suez Canal </h3>
+           <p><img src="images/suez/9.jpg" style="width: 300px; height: 300px;">
+	          The Suez Canal is a man-made waterway connecting the Mediterranean Sea to the Indian Ocean via the Red Sea. It enables a more direct route for shipping between Europe and Asia, effectively allowing for passage from the North Atlantic to the Indian Ocean without having to circumnavigate the African continent. The waterway is vital for international trade and, as a result, has been at the center of conflict since it opened in 1869.	   
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. Uyun Musaa</h3>
+           <p ><img src="images/suez/10.jpg" style="width: 300px; height: 300px;">
+	           Oyun Musa is one of Egypt’s hot springs; renowned for the therapeutic effects of its water, the destination has made Sinai popular for therapeutic tourism.
+                Oyun Musa boasts the world’s highest sulfur rates, and with temperatures reaching up to 27 degrees Celsius, the water helps treat many diseases such as those of the kidneys and skin.	   	  
+           </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. St. Anthony Monastery</h3>
+           <p><img src="images/suez/11.jpg" style="width: 300px; height: 300px;">
+	         The Church of St Anthony is the oldest part of the monastery and the main highlight of a visit here. It's built over the saint’s tomb and contains one of Egypt’s most significant collections of Coptic wall paintings
+           </p>	
+       </article>
+       
+    
+       <article class="city">
+          <h3>4.Suez Museum</h3>
+           <p><img src="images/suez/12.jpg" style="width: 300px; height: 300px;">
+              the museum is part of a plan by the Ministry of State for Antiquities (MSA) to establish national museums in cities throughout Egypt. The Suez museum displays archaeological artefacts, illustrations and maps that reveal the history of the Suez Canal beginning with the time of the canal’s ancient forerunner, the Sesostris Canal.
+          </p>
+       </article>
+       
+   </section>
+</section>
+
+    
+    <!-- Al Qahirah content that will display-->
+<section id="Al-Qahirah" class="tabcontent">
+   <h1>Cairo</h1>
+    <h2>Welcome to Cairo</h2>
+     <p class="info">
+	 Cairo’s an ancient city that also happens to be a modern metropolis—it’s one of the biggest cities in the Middle East and has the traffic and noise issues to prove it. But as long as you’re not looking for solitude,
+	 Cairo—the City of the Thousand Minarets—is a splendid place to explore Egyptian history and culture.
+	 </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+     Cairo is steeped in the ancient past, making for a wide array of cultural attractions to take in on a present-day visit. Many people travel to the Egyptian capital to witness its historical marvels, and to experience some of its modern vibrancy too. If you’re planning a trip to this multifaceted city,
+	 check out these top things to see and do in Cairo.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+        <img src="images/cairo/1.jpg">
+        <img src="images/cairo/2.jpg">
+        <img src="images/cairo/3.jpg">
+        <img src="images/cairo/4.jpg">
+        <img src="images/cairo/5.jpg">
+        <img src="images/cairo/6.jpg">
+        <img src="images/cairo/7.jpg">
+        <img src="images/cairo/8.jpg"> 
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Cairo</h1>
+       
+       <article class="city">
+          <h3>1. The Pharaonic Village</h3>
+           <p><img src="images/Cairo/11.jpg" style="width: 300px; height: 300px;">
+		   The Pharaonic Village is a historic experience not to be missed.
+		   It is a unique place where Egypt's entire history is explained in 2-3 hours,
+		   from ancient living to modern times. The Pharaonic Village is a great introduction to Egypt, a perfect stop for anyone's first trip to Egypt.. It is located on an island in the Nile,
+		   just 3 miles south of the center of Cairo. In this village, you are transported by floating amphitheaters, while a hundred actors and actresses demonstrate scenes from ancient Egypt (papyrus making, sculpting, home building….etc.). It is truly a one-of-a-kind experience you cannot find anywhere else. This trip is definitely one your kids will always remember!
+           </p>
+       </article>      
+       
+       <article class="city">
+          <h3>2. Khan Al-Khalily </h3>
+           <p ><img src="images/Cairo/12.jpg" style="width: 300px; height: 300px;">
+		    The skinny lanes of Khan Al Khalili are basically a medieval-style mall. This agglomeration of shops – many arranged around small courtyards – stocks everything from soap powder to semiprecious stones, not to mention tacky toy camels and alabaster pyramids. Most shops and stalls open from around 9am to well after sundown (except Friday morning and Sunday), although plenty of the souvenir vendors are open as long as there are customers,
+			even on Sunday.</p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. Cairo Tower</h3>
+           <p><img src="images/Cairo/13.jpg" style="width: 300px; height: 300px;">
+		    Locals and tourists alike come to the Cairo Tower to take in the breathtaking views across the city of a thousand minarets. The free-standing tower is located on Gezira Island (Zemalak) not far from the Museum of Modern Art. The body of the tower is made of granite and has intricate latticework which slightly fans out at the top of the tower like a lotus flower. The tower was designed by Naoum Shebib and constructed from 1954 to 1961</p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. ALMoez Street</h3>
+           <p><img src="images/Cairo/14.jpg" style="width: 300px; height: 300px;">
+		  It is one of the most amazing streets in Islamic Cairo it dates back to the Fatimid. to discover the Islamic civilization. 
+		  Walking along El-Moez Street, you will be fascinated by the historic atmosphere of the old cafés, souvenir shops, and food and sweets sold from kiosks and carts. You will also find Islamic art carved into the historic mosques and houses.</p>     
+       </article>
+       
+   </section>
+</section>
+
+   
+
+    <!-- Sharm content that will display-->
+<section id="Sharm" class="tabcontent">
+      <h1>Sharm ElSheikh</h1>    
+      <h2>Welcome to Sharm ElSheikh</h2>
+     <p class="info">
+        Sharm ElSheikh is an Egyptian city on the southern tip of the Sinai Peninsula, in South Sinai Governorate, on the coastal strip along the Red Sea. Its population is approximately 73,000 as of 2015. Sharm El Sheikh is the administrative hub of Egypt's South Sinai Governorate, which includes the smaller coastal towns of Dahab and Nuweiba as well as the mountainous interior, St. Catherine and Mount Sinai. The city and holiday resort is a significant centre for tourism in Egypt, while also attracting many international conferences and diplomatic meetings.
+    </p>
+    
+    <button class="moretextbtn" ><i class="fa fa-arrow-down fa-1x"></i> Read More</button>
+  <div class="extra-info" style="display: none">
+      Sharm El Sheikh was little more than an occasional base of operations for local fishermen; the nearest permanent settlement was in Nabk, north of Ras El Nasrani ("The Tiran Straits"). Commercial development of the area began when the Israelis built the town of Ofira, overlooking Sharm El Maya Bay and the Nesima area, and opened the first tourist-oriented establishments in the area 6 km north at Naama Bay. These included a marina hotel on the southern side of the bay, a nature field school on the northern side, diving clubs, a now well-known promenade, and the Naama Bay Hotel. The site off the shore gun emplacements at Ras Nasrani opposite Tiran Island is now a diving area.
+    </div>
+  
+    
+   <section class="c-galary"> 
+     <a>
+      <img src="images/sharm/1.jpg">
+      <img src="images/sharm/2.jpg">
+      <img src="images/sharm/3.jpg">
+      <img src="images/sharm/4.jpg">
+      <img src="images/sharm/5.jpg">
+      <img src="images/sharm/6.jpg">
+      <img src="images/sharm/7.jpg">
+      <img src="images/sharm/8.jpg">
+     </a>
+  </section>    
+   
+   <section class="c-Related">
+     <h1>Related Attractions in Sharm ElSheikh</h1>
+       
+       <article class="city">
+          <h3>1. RAS MOHAMED </h3>
+           <p><img src="images/sharm/9.jpg" style="width: 300px; height: 300px;">
+           Ras Muhammad is the most famous national park in Egypt and one of the most famous diving sites in the world. A national park that is located between the rich coral reefs of the Red Sea and the inland desert of the Sinai- it covers the coral headland at the southernmost tip of Sinai. At the southern end of the headland there is a small stand of Mangrove . Beneath the crystal-clear waters of the Red Sea you'll find coral reefs teeming with life including a diversity of vertebrate and invertebrate species.
+          </p>     
+       </article>      
+       
+       <article class="city">
+          <h3>2. St. Catherine and Mount sinai </h3>
+           <p ><img src="images/sharm/10.jpg" style="width: 300px; height: 300px;">
+               The town of St.Katherine is in the Sinai peninsula in Egypt at an elevation of about 1600 meters from sea level, at the foot of the Sinai High Mountains.Up to a thousand visitors come to visit St. Katherine’s Monastery, the oldest continuously inhabited monastery in the World built on the site where Moses talked to God in the miracle of the Burning Bush, and to climb Mt. Sinai (the Biblical Mt. Horeb, known locally as Jebel Musa) where Moses has received the Ten Commandments.Most visitors arrive on organized coach tours from the Red Sea resorts of Sharm elSheikh
+            </p>     
+       </article> <br>     
+       
+       <article class="city">
+          <h3>3. ADVENTURE IN ABU GALUM</h3>
+           <p><img src="images/sharm/11.jpg" style="width: 300px; height: 300px;">
+              The Abu Galum Protectorate is a narrow coastal plain with high coastal mountains and the area plays a significant role in regulating the use of land. The many channels are a home to more than 165 plants species which even includes the medicinal plant, Batheran, which is used to treat abdominal colic. The wildlife in the area includes the Hyrax, the Rupell's Fox and the Striped Hyena. Also, ten species of snakes and lizards can be seen when at this protectorate. It’s advised to visitors to avoid the sandy areas which have vegetation.
+          </p>     
+       </article>
+       
+       
+       <article class="city">
+          <h3>4. DAHAB </h3>
+           <p><img src="images/sharm/12.jpg" style="width: 300px; height: 300px;">
+              Dahab can be divided into three major parts. Masbat, which includes the Bedouin village Asalah, is in the north. South of Masbat is Mashraba, which is more touristic and has considerably more hotels. In the southwest is Medina which includes the Laguna area, famous for its excellent shallow-water windsurfing.
+              The region of Asalah is quite developed and has many camps and hostels. Most people who have visited Dahab in the past were backpackers interested in diving and snorkeling in the Red Sea. The city of Dahab counts around 15,000 inhabitants.
+           </p>     
+       </article>
+       
+   </section>
+</section>   
+        
+    
+    <!--Portfolio content page-->
+<section id="Portfolio" class="btnContent">   
+<p>Portfolio</p>    
+</section> 
+   
+    
+    <!--Contact content page-->
+<section id="Contact" class="btnContent">   
+  <div class="feedback">
+    <fieldset> 
+        <legend>You Can Send Us From Here</legend>
+      <form>
+        <label style="margin-right: 10px">Name:</label>
+        <input id="name" type="text" placeholder="Enter Your Name" required pattern="/^[a-z][A-Z]$/"><br><br><br>
+          
+        <label style="margin-right: 20px" pattern="/[a-z][A-Z][0-9]$/">Mail:</label>
+        <input id="mail" type="text" placeholder="Enter Your Mail" required><br><br><br>
+          
+        <label  style="margin-right: 21px">City:</label>
+        <input id="city" type="text" placeholder="Enter Your City" required pattern="/^[a-z][A-Z]$/"><br><br><br>
+          
+        <label>Your Message:</label>
+        <textarea id="message" style="width: 400px;height: 150px" placeholder="Leave Your Message"></textarea>
+        <button><i class="fa fa-send"></i> Send Message</button>
+      </form>
+    </fieldset>    
+  </div>   
+</section>
+    
+    
+    
+        <!--About us content page-->
+<section id="about" class="btnContent">   
+  <h2><i class="fa fa-question-circle fa-1x"></i>Who We Are ?</h2> 
+    
+    <!-- history about the site-->
+    <p class="histiry">
+       We are an internal tourism company established in 2019, we make tourist programs in the different governorates of Egypt for Egyptians and tourists, and we provide tourist programs in all governorates and we have a distinguished service of transfers and stays in the best hotels.
+    </p>
+    
+    <!-- team work of the site-->
+<section  class="Our-Team">
+    <h2><i class="fa fa-users"> Our Team</i></h2>
+    
+   <ul> 
+    <li id="owners">
+      <img class="img1" src="images/owners/72143306_1531244420360913_147589554625314816_o(5)%20-%20Copy.jpg">
+      <p><i class="fa fa-user fa-2x"> </i> MOSTAFA ESSAM</p>
+    </li>
+       
+    <!--li id="owners">
+      <img class="img1" src="images/owners/83295153_193273931855199_7588124480841449472_n.jpg">
+      <p><i class="fa fa-user fa-2x"> </i> MOHAMED EZ-ELDEEN</p>
+    </li-->
+   
+    
+    <!--li id="owners">
+      <img class="img1" src="images/owners/miar.jpg">
+      <p><i class="fa fa-user fa-2x"> </i> MAIAR MOSTAFA</p>
+    </li-->
+  </ul>   
+</section>            
+
+    
+     <!-- our location -->
+    <section class="location">
+        <h2><i class="fa fa-map fa-1x "> </i> Our Location</h2>
+        
+     <ul>    
+       <li class="map">
+         <img src="images/location-%E2%80%AAGoogle%E2%80%AC%E2%80%8F%E2%80%8F.png" alt="site">
+       </li> 
+        
+        <li class="mapinfo" style="margin-top: 50px">
+           <p><strong><i class="fa fa-map-marker fa-1x"></i> Adress:</strong> Egypt, El-Minia</p>
+           <p><strong><i class="fa fa-envelope fa-1x"></i> E-mail:</strong> minia_safari50@gmail.com</p>
+           <p><strong><i class="fa fa-phone fa-1x"></i> Phone:</strong> 023048975 - 023645407</p>
+        </li>
+     </ul>    
+    </section>
+    
+</section>   
+    
+    
+        <!--rejest content page-->
+        <section id="rejest" class="btnContent">   
+          <div class="booking">
+          <fieldset> 
+            <legend>Book your Adventure From Here</legend>
+           
+             <form  name="bookform" id="confirm" onsubmit="return(formvalidation());">
+            <ul> 
+                <li >
+                    <input type="radio" name="tour" ><label>Book a tour</label>
+                    <input type="radio" name="Hotel" class="radio" style="margin-left: 310px"><label>Hotel booking</label>
+               </li><br><br><hr>
+                
+                 
+                
+                 <li>
+                    <input type="radio" name="Going"><label>Going</label>
+                    <input type="radio" name="Coming back" class="radio"><label>Going and Coming back</label>
+                 </li><br><br><hr>
+             </ul> 
+                   
+                 
+              <div class="from">   
+                <label>From:</label> 
+                <input class="form-control" id="from" type="text" name="from"  >
+              </div> 
+                 
+               <div class="to"> 
+                <label>To:</label> 
+                <input class="form-control" type="text" name="to"  >
+              </div><hr><br><br>
+              
+              <div class="go">
+                <label>Going:</label> 
+                <input type="date" class="form-control" name="go"  id="godate" >
+             </div>  
+                 
+              <div class="back">   
+                 <label>back:</label>
+                <input type="date" class="form-control" name="back1" >
+             </div><hr><br><br>
+                
+               
+                <div class="Adult">
+                    <label>Adult(+12)</label>
+                    <input type="number" class="control" name="Adult" min="0">
+                </div>
+            
+                 
+                <div class="young">
+                    young(2-12)
+                    <input type="number" class="control" name="young" min="0">
+                </div>
+            
+                 
+                <div class="infant">
+                   infant
+                   <input type="number" name="infant" class="control" min="0">
+                </div><br><br><hr><br><br>
+                
+                   
+              <div class="nameperson"> 
+                <label>Name:</label> 
+                <input class="form-control" type="text" name="name" minlength="10">
+              </div>          
+                 
+                   
+               <div class="id"> 
+                <label>ID:</label> 
+                <input class="form-control" type="text" name="id" maxlength="14" minlength="14">
+              </div><br><br>
+                 
+                 
+                               
+               <div class="phone"> 
+                <label>Phone:</label> 
+                <input class="form-control" type="text" name="phone" maxlength="11" minlength="11">
+              </div>          
+                 
+                   
+               <div class="mail"> 
+                <label>E-Mail:</label> 
+                <input class="form-control" type="text" name="mail" >
+              </div><hr><br><br>
+                 
+              <div class="service">   
+                <label>service</label>
+                <select class="form-control" name="service">
+                   <option value="*">*</option>
+                   <option value="**">**</option>
+                   <option value="***">***</option>
+                   <option value="****">****</option>
+              <option value="*****">*****</option>
+                </select>
+               </div>
+                 
+             <div class="rooms"> 
+                <label>Rooms:</label> 
+                <input class="form-control" type="number" name="rooms" >
+              </div><hr><br><br>
+                 
+         
+                 <button id="send" class="send"><i class="fa fa-send"></i> Send Request</button>
+                  
+                 
+         <br><br>
+           </form>
+         </fieldset>    
+       </div>   
+          
+     </section> 
+    
+  <!-- footer content-->   
+<footer>
+     <button id="topbtn" class="top"><i class="fa fa-arrow-up fa-2x"></i></button> <!-- button go to top screen --> 
+      <div class="Site-Map">
+        <h2 style="margin-left: 48px"><i class="fa fa-map"></i> Site Map</h2>
+        <ul >
+          <li onclick="opennav(event, 'home')"><a href="#">Home</a></li>
+          <li onclick="opennav(event, 'rejest')"><a href="#">Services</a></li>
+          <li onclick="opennav(event, 'about')"><a href="#">About</a></li>
+          <li onclick="opennav(event, 'Contact')"><a href="#">Contact</a></li>
+        </ul>
+          
+        <ul class="social-icons">
+          <li><a href="#"><img src="images/icons/logo_facebook.png"></a></li>
+          <li><a href="#"><img src="images/icons/logo_googleplus.png"></a></li>
+          <li><a href="#"><img src="images/icons/logo_instagram.png"></a></li>
+          <li><a href="#"><img src="images/icons/logo_youtube.png"></a></li>
+          <li><a href="#"><img src="images/icons/logo-whatsapp.png"></a></li>
+        </ul>
+      </div>
+      
+      <div class="Articles">
+        <h2><i class="fa fa-bullhorn fa-1x"></i> latest Offers</h2>
+        <div>
+          <a href="#" class="pull-left">
+            <img src="images/algiza/2.jpg"  />
+          </a>
+          <div class="media-body">
+            <h4 > Visite Giza </h4>
+            <p> Book a tour of Giza and get a huge discount.</p>
+          </div>
+        </div>
+          
+        <div>
+          <a href="#" class="pull-left">
+            <img src="images/alex/7.jpg"  />
+          </a>
+          <div class="media-body">
+            <h4 > Visite Alexandria</h4>
+            <p> In Alexandria you can find the best landscaping places to book now.</p>
+          </div>
+        </div>
+        
+        <div>
+          <a href="#" class="pull-left">
+            <img src="images/luxor/4-maxresdefault-.jpg"/>
+          </a>
+          <div>
+            <h4 > Visite Luxor</h4>
+            <p>The city of magic and beauty, the most beautiful tourist places and great discounts we have.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="trips">
+        <h2><i class="fa fa-bus fa-1x"></i> Our Last Trips</h2>
+        <img src="images/portf/1.jpg" alt="" />
+        <img src="images/portf/13.jpg" alt="" />
+        <img src="images/portf/9.jpg" alt="" />
+        <img src="images/portf/10.jpg" alt="" />
+      </div>
+      
+  <div class="copyright">
+    Copyright &copy; 2020 <span>Safari Company</span>
+  </div>
+</footer>
+    
+    <script src="j.s/travel.js"></script>
+</body>
+</html>
